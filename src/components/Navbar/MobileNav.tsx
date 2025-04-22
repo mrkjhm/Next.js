@@ -76,7 +76,7 @@ const MobileNav = ({ closeNav, showNav }: Props) => {
                             key={link.id}
                             className="hover:text-teal-200 transition-all duration-300"
                         >
-                            <span className="text-white w-fit text-[20px] ml-12 border-b-[1.5px] pb-1 border-white sm:text-[30px]" onClick={toggleMenu}>
+                            <span className="text-white w-fit text-[20px] ml-5 border-b-[1.5px] pb-1 border-white sm:text-[30px]" onClick={toggleMenu}>
                                 {link.label}
                             </span>
                         </Link>
