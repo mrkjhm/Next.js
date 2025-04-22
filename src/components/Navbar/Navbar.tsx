@@ -16,16 +16,20 @@ const Navbar = ({openNav}:Props) => {
                 <span className="text-2xl font-bold">Mark,</span> <br /> Designer / Web Developer
             </Link>
 
-            <div className="space-x-10 md:flex hidden ">
+            <div className="space-x-10 md:flex hidden">
                 {navLinks.map((link) => {
                     return (
                         <Link
                             href={link.url}
                             key={link.id}
-                            className="hover:text-teal-200 transition-all duration-300"
+                            className="hover:text-teal-200 transition-all duration-300 cursor-pointer relative z-10"
                         >
-                            <p>{link.label}</p>
+                            <span>{link.label}</span>
                         </Link>
+
+
+
+
                     )
                 })}
             </div>
