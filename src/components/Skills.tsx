@@ -1,13 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-
 import icons from '../../public/icons.png'
 
 
 import email from '../../public/SVG.png'
 import vector from '../../public/Vector.png'
 import memoji from '../../public/contact-memoji.png'
-import Twitter from "../../public/Twitter.png";
 import Link from "next/link";
 
 

@@ -1,8 +1,5 @@
-import Image from "next/image";
 import Header from "../components/Header";
 import Works from "../components/Works";
-import Profile from "@/app/contact/page"
-import Contact from "../components/Contact";
 import Skills from "../components/Skills";
 
 export default function Home() {
